@@ -1,0 +1,45 @@
+body,
+html {
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Rboto", sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+#playButton {
+  padding: 0.5rem 2rem;
+  margin: 25px 0;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+}
+#playButton:hover {
+  background-color: tomato;
+  color: white;
+}
+
+#player,
+#computer {
+  display: inline;
+  padding: 2rem;
+  color: tomato;
+  font-weight: bolder;
+}
+#won {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
